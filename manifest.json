@@ -1,57 +1,13 @@
 {
-    "applications": {
-        "firemacs": {
-            //"id": "TODO",
-            //"strict_min_version": "TODO"
-        }
-    },
-
-    "background": {
-    "scripts": ["background-script.js"]
-    },
+    "manifest_version": 2,
+    "name": "firemacsWE",
+    "version": "0.01",
 
     "browser_action": {
-        // not likely to be used
+        "default_icon": "icon32.png"
     },
 
-    "commands": {
-        // all the commands could go here
-        // but probably should not
-    },
-
-    // "content_security_policy": default until proven otherwise
-
-    "content_scripts": [
-        {
-            // "exclude_matches": undefined,
-            "matches": [*],
-            "js": ["firemacs.js"]
-        }
-    ],
-
-    //"default_locale": undefined
-
-    //"description": "TODO"
-
-    "icons": {
-        "16": icon16.png,
-        "32": icon32.png,
-    },
-
-    // let manifest version reflect a version
-    // of Firefox contemporaneous with the release
-    // of Firemacs?
-    //"manifest_version": 53,
-
-    //"name": "TODO",
-
-    "page_action": {
-        // probably not used
-    },
-
-    //"permissions": "TODO",
-
-    //"version": "TODO",
-
-    //"web_accessible_resources": []
+    "permissions": [
+        "activeTab"
+    ]    
 }
