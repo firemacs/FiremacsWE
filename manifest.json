@@ -10,7 +10,7 @@
     "permissions": [
         "clipboardRead",
         "clipboardWrite",
-        "tabs"
+        "tabs",
         "storage"
     ]    
 }
