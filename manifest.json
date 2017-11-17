@@ -8,6 +8,9 @@
     },
 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "clipboardRead",
+        "clipbaordWrite",
+        "tabs"
     ]    
 }
