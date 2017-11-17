@@ -12,5 +12,6 @@
         "clipboardRead",
         "clipboardWrite",
         "tabs"
+        "storage"
     ]    
 }
