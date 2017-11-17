@@ -10,7 +10,7 @@
     "permissions": [
         "activeTab",
         "clipboardRead",
-        "clipbaordWrite",
+        "clipboardWrite",
         "tabs"
     ]    
 }
