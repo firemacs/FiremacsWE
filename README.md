@@ -6,6 +6,11 @@ Firemacs as a Web Extension
 2. Tab manipulation compatible with the original Firemacs
 3. Works in Firefox and Chromium/Chrome
 
+### Development
++ The simpelest useful thing that might work.
++ Eat the elephant one bite at a time.
++ Minimize dependencies.
+
 ### To contribute:
 0. Use Forking and Pull requests
 1. Fork this repository to your personal Github repository
