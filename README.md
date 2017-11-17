@@ -16,4 +16,5 @@ Firemacs as a Web Extension
 ### Please
 + Try to keep the Pull Requests small so that Merges are less likely to be complex.
 + Strongly consider putting your changes in a branch that is not Master.
++ Test in Firefox and Chrome/Chromium
 
