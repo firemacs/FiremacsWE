@@ -1,6 +1,9 @@
 # FiremacsWE
 Firemacs as a Web Extension
 
+## Status
+FiremacsWE is not ready to use. The Quantum update broke the API upon which the old version depended. The Web Extensions API is not as friendly to complete remapping of the keyboard to put it mildly. The absence of a Firemacs equivalent for Chome is probably evidence of htis.
+
 ### Goals
 1. Emacs-like keybindings for editing text.
 2. Tab manipulation compatible with the original Firemacs
