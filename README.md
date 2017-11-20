@@ -1,8 +1,8 @@
-# FiremacsWE
-Firemacs as a Web Extension
+## FiremacsWE
+Firemacs as a Web Extension **It is not ready for use yet.** The Quantum update broke the API upon which the old version depended. The Web Extensions API is not as friendly to complete remapping of the keyboard to put it mildly. The absence of a Firemacs equivalent for Chome is probably evidence of this.
 
-## Status
-**This plugin is not ready for use yet.** The Quantum update broke the API upon which the old version depended. The Web Extensions API is not as friendly to complete remapping of the keyboard to put it mildly. The absence of a Firemacs equivalent for Chome is probably evidence of this.
+# DON'T PANIC
+The old version of [Firemacs](https://addons.mozilla.org/en-US/firefox/addon/firemacs/) still works with [Firefox Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/). Installing Firefox ESR is probably not a permanent solution. But it will allow you to continue existing workflows for several months.
 
 ### Goals
 1. Emacs-like keybindings for editing text.
