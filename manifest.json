@@ -2,7 +2,6 @@
     "manifest_version": 2,
     "name": "firemacsWE",
     "version": "0.01",
-
     "browser_action": {
         "default_icon": "icon32.png"
     },
@@ -11,7 +10,27 @@
         "activeTab",
         "clipboardRead",
         "clipboardWrite",
-        "tabs"
+        "tabs",
         "storage"
-    ]    
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*" ],
+            "js": ["firemacsWE.js"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "commands": {
+        "closeTab": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+W"
+            },
+            "description": "Send a 'closeTab' event to the extension"
+        }
+    }
 }
